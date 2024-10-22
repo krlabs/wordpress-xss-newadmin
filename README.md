@@ -9,10 +9,7 @@ This code is provided **for educational purposes only**. The use of this code wi
 
 1. **Fetch the HTML** of the `/wp-admin/user-new.php` page to extract the CSRF token.
 2. **Parse the `_wpnonce`** value from the response.
-3. **Send a POST request** to create a new administrator user with the following credentials:
-   - **Username**: `hackwordpress`
-   - **Email**: `hacker@evil.com`
-   - **Password**: `passw0rd`
+3. **Send a POST request** to create a new administrator user with the provided credentials.
 ---
 
 ## 🚨 Legal Notice
